@@ -1,13 +1,5 @@
 #include "main.h"
-#include <stdio.h>
-/**
- * infinite_add - add 2 strings.
- * @n1: string1.
- * @n2: string2.
- * @r: buffer
- * @size_r: buffer size
- * Return: String with all letters in ROT13 base.
- */
+#include <stdio.h
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int a_len = 0, b_len = 0, carry = 0, a, b, sum, biggest;
